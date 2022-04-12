@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+}
+
+header{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.titulo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    margin-top: 30px;
+}
+.span_to{
+    text-shadow: 1px 1px 3px black;
+    color:#FCFFA6 ;
+}
+.span_do{
+    text-shadow: 1px 1px 3px black;
+    color: #B5DEFF ;
+}
+.span_kan{
+    text-shadow: 1px 1px 3px black;
+    color: #C1FFD7 ;
+}
+.dashboard{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #F9F9F9;
+}
+.tablero_brd{
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin: 20px;
+    padding: 20px 0px;
+    height: 80%;
+    width: 100%;
+}
+.tablero{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 10px 20px;
+    padding: 20px 0px;
+    width: 100%;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.466); 
+    box-shadow: inset 1px 1px 10px rgba(255, 255, 255, 0.466);
+    border-radius: 15px;
+    height: 80%;
+    width: 30%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.col_1{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 3px black;
+    color:#FCFFA6 ;
+}
+.col_2{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 3px black;
+    color: #B5DEFF ;
+}
+.col_3{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 3px black;
+    color: #C1FFD7 ;
+}
+
+.add-ctn_pnd{
+    background-color: #FCFFA6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 10px 0px;
+    width: 95%;
+    height: fit-content;
+    min-height: 300px;
+    border-radius: 10px;
+}
+.add-ctn_pgr{
+    background-color: #B5DEFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 10px 0px;
+    width: 95%;
+    height: fit-content;
+    min-height: 300px;
+    border-radius: 10px;
+}
+.add-ctn_trm{
+    background-color: #C1FFD7;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 10px 0px;
+    width: 95%;
+    height: fit-content;
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+.inp_t{
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.466);
+    width: 70%;
+    height: 10%;
+    min-height: 10%;
+    border-radius: 5px;
+    margin: 10px ;
+    padding: 5px 10px;
+}
+.inp_t:hover{
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    background-color: rgba(255, 255, 255, 0.466); 
+}
+.inp_t:focus{
+    outline: none;
+}
+.inp_t::placeholder{
+    font-weight: bolder;
+    color: rgba(51, 51, 51, 0.466);
+    
+}
+.btn-agr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 10px;
+    margin: 10px;
+    height: 10%;
+    min-height: 10%;
+    width: 10%;
+    color: rgba(0, 0, 0, 0.336);
+    font-size: 25px;
+}
+.btn-agr:hover{
+    color: rgba(0, 0, 0, 0.575);
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    background-color: rgba(255, 255, 255, 0.466);  
+}
+
+.tareas_ctn{
+    width: 100%;
+    height: 100%;
+}
+
+.tarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100px;
+    height: 100px;
+    height: fit-content;
+    font-family: 'Dancing Script', cursive;
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 30px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+

@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ToDoList</title>
 </head>
 <body>
+    <header>
+        <h1 class="titulo" id="titulo"><span class="span_to">To</span> <span class="span_do">Do</span> <span class="span_kan">Kanban</span> </h1>
+    </header>
+        
+    <section class="dashboard">
+        <div class="tablero_brd">
+            <div class="tablero">
+                <div class="columna">
+                    <h3 class="col_1">Pendiente</h3>
+                    <div class="add-ctn_pnd">
+                        <input type="text" class="inp_t" placeholder="Agregar Tarea">
+                        <button type="submit" id="btn_agr" class="btn-agr"> + </button>
+                        <div class="tareas_ctn">
+                            <div class="tarea">
+                                <p>tarea3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna">
+                    <h3 class="col_2">En Progreso</h3>
+                    <div class="add-ctn_pgr">
+                        <input type="text" class="inp_t"  placeholder="Agregar Tarea">
+                        <button type="submit" id="btn_agr" class="btn-agr"> + </button>
+                        <div class="tareas_ctn">
+                            <div class="tarea">
+                                <p>tarea2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna">
+                    <h3 class="col_3"> Terminado </h3>
+                    <div class="add-ctn_trm">    
+                        <input type="text" class="inp_t"  placeholder="Agregar Tarea">
+                        <button type="submit" id="btn_agr" class="btn-agr"> + </button>
+                        <div class="tareas_ctn">
+                            <div class="tarea">
+                                <p>tarea1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
     <script src="main.js"></script>
 </body>
 </html>
